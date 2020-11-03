@@ -35,6 +35,8 @@ __meta__ = {
 }
 
 [node name="Viewport" type="Viewport" parent="."]
+size = Vector2( 1024, 1024 )
+size_override_stretch = true
 own_world = true
 transparent_bg = true
 hdr = false

@@ -5,6 +5,9 @@
 
 **UV Remapper** is a small script that can take a model with two UVs and a source texture and convert the source texture to the second set of UVs.
 
+## Changelog
+* 77356fd28b49368dc653aa98ba6bb4d3fe110dcf - User maksloboda found a really nice way of doing it on the GPU. Making the code 100 times simplier and 100 times faster.
+
 ## How to use
 * With your favorite 3d software, export a model in a format compatible with Godot (I use gltf2.0) that include two sets of UVs
 * Open the Godot project (currently support godot 3.2.3) and load the scene Remapper.tscn
